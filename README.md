@@ -39,12 +39,17 @@ streamlit run app.py
 ```
 Navigate to the provided URL to interact with the application.
 ### Dependencies
+
 The project relies on several Python packages listed in requirements.txt, including but not limited to:
 
 - Streamlit for creating the web app
 - Pandas for data manipulation
 - Numpy for numerical operations
 - Requests for API calls
+- Scikit-learn for machine learning tasks
+- NLTK (Natural Language Toolkit) for natural language processing tasks
+- Pickle for serialization and deserialization of Python objects
+
 ### How It Works
 The system uses a content-based filtering approach to recommend movies. It analyzes the attributes of movies (such as genre, actors, directors, etc.) that the user has liked previously and suggests similar movies based on those attributes. This method recommends movies that share similar characteristics to the ones the user has shown interest in.
 
