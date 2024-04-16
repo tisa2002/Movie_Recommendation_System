@@ -1,12 +1,12 @@
 # Movie Recommendation System
 
-This project is a movie recommendation system built using Python and Streamlit. It leverages collaborative filtering to recommend movies to users based on their preferences and the preferences of other users. The system utilizes the MovieLens dataset to train the model and provide recommendations.
+This project is a movie recommendation system built using Python and Streamlit. It leverages content-based filtering to recommend movies to users. The system utilizes the TMDB dataset to train the model and provide recommendations.
 ### Deployment
 https://movie-recommendation-system-tisa2002.streamlit.app/
 ## Features
 
-- Movie recommendations based on user preferences.
-- Utilizes collaborative filtering techniques.
+- Movie recommendations system.
+- Utilizes content-based filtering techniques.
 - Interactive web app built with Streamlit for easy use.
 - Fetches movie posters through an API for an engaging user experience.
 
@@ -46,7 +46,7 @@ The project relies on several Python packages listed in requirements.txt, includ
 - Numpy for numerical operations
 - Requests for API calls
 ### How It Works
-The system uses a collaborative filtering approach to recommend movies. It calculates similarity scores between movies based on user ratings and suggests movies that are similar to the ones the user likes.
+The system uses a content-based filtering approach to recommend movies. It analyzes the attributes of movies (such as genre, actors, directors, etc.) that the user has liked previously and suggests similar movies based on those attributes. This method recommends movies that share similar characteristics to the ones the user has shown interest in.
 
 ### Key Functions
 - fetch_poster(movie_id): Fetches movie posters using an API.
