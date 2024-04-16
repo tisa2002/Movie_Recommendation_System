@@ -63,5 +63,5 @@ Contributions to the Movie Recommendation System are welcome. Please feel free t
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ### Acknowledgments
-This project is inspired by the MovieLens dataset.
+This project is inspired by the TMDB movie and credits dataset.
 Thanks to Streamlit for making interactive web apps easy to build.
